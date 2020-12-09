@@ -1,7 +1,7 @@
 body {
     text-align: center;
     color: bisque;
-    background-color: rgb (20,20,20);
+    background-color: rgb(54, 54, 54);
 }
 
 h1 {
@@ -9,7 +9,22 @@ h1 {
     font-weight: bold;
 }
 
+main {
+    float: left;
+}
+
+aside {
+    float: right;
+}
+
+figure {
+    padding: 10px;
+}
+
 p {
     font-family: cursive;
 }
 
+footer {
+    clear: fix;
+}
