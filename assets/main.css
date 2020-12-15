@@ -1,15 +1,14 @@
 body {
-    text-align: center;
     color: bisque;
     background-color: rgb(54, 54, 54);
 }
 
 h1 {
-    color: forestgreen;
     font-weight: bold;
 }
 
 main {
+    text-align: center;
     float: left;
 }
 
@@ -26,5 +25,6 @@ p {
 }
 
 footer {
-    clear: fix;
+    clear: both;
+
 }
