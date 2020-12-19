@@ -1,43 +1,38 @@
 * {
-    style: @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600&display=swap');
+    
 }
 
 body {
     background-image: url("../images/pink-sunset.jpeg");
     color: white;
+    font-family: 'Jura', sans-serif;
+    
 }
 
 nav {
-    background-color: skyblue;
-    font-family: 'Quicksand', sans-serif;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 15px 20px -6px rgb(66, 24, 105);
+    background: lightcyan;
     font-size: 20px;
+    font-weight: bold;
     width: 100%;
     padding: 30px;
-    /*-webkit-box-shadow: 0 8px 6px -6px #999;
-    -moz-box-shadow: 0 8px 6px -6px #999;
-    box-shadow: 0 8px 6px -6px #999;
-    */
 }
 
 main {
-    border: solid black 2px;
+    /* border: solid black 2px; */
+    
 }
+
 h1 {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: bold;
-    padding: 10px;
-    padding-top: 68px;
+    padding-top: 40px;
 }
 
-p {
-    font-family: 'Quicksand', sans-serif;
-    padding-right: 5%;
-}
-
-.portImage {
-    display: flex;
-    justify-content: space-around;
-    border: solid black;
+p,
+figcaption,
+label {
+    font-size: 18px;
 }
 
 .container-fluid {
@@ -48,13 +43,22 @@ p {
     padding-left: 15%;
     padding-right: 15%;
 }
-#sedonaPic {
-    height: auto;
-    padding: 10%;
+
+.aboutMeParagraph {
+    padding-top: 45px;
+}
+.portImage {
+    height: 300px;
+    width: 300px;
 }
 
-.portfolio {
-    text-align: center;
+#sedonaPic {
+    height: auto;
+    padding: 12%;
+}
+
+#aboutMeParagraph {
+    padding-right: 10%;
 }
 
 figure {
@@ -62,14 +66,15 @@ figure {
 }
 
 footer {
-    font-family: 'Quicksand', sans-serif;
     font-size: 20px;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 100px;
+    padding-bottom: 0px;
 }
 
 #name {
-    font-size: 35px;
+    font-size: 40px;
+    font-weight: bolder;
     padding: 20px;
 }
 
@@ -81,7 +86,6 @@ footer {
     text-align: center;
 }
 
-#horiseon {
-    height: 325px;
-
+#linkedIn {
+    color: lightskyblue;
 }

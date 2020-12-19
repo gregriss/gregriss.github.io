@@ -6,6 +6,7 @@
     <title>Greg's Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Jura:wght@400;700&display=swap');</style>
     <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 <body>
@@ -18,49 +19,55 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-link" href="index.html">About</a>
-                  <a class="nav-link active" aria-current="page" href="portfolio.html">Portfolio</a>
-                  <a class="nav-link" href="contact.html">Contact</a>
+                  <a class="nav-link" href="index.html">ABOUT</a>
+                  <a class="nav-link active" aria-current="page" href="portfolio.html">PORTFOLIO</a>
+                  <a class="nav-link" href="contact.html">CONTACT</a>
                 </div>
               </div>
             </div>
           </nav>
         </header>
-
     <main class="container">
-        <section>
-            <h1 class="portfolio">Portfolio</h1>
-            <p class="portfolio">Here are some projects I've worked on thus far.</p>
-        </section>
-        <section>
-            <div class="container-md">
-                <figure class="figure">
-                    <img id="horiseon" src="assets/images/horiseon-refactor-code.JPG" class="img-fluid rounded float-start portImage" alt="Project 1">
-                </figure>
-                <figcaption>Horiseon Refactor</figcaption>
-                <figure class="figure">
-                    <img src="https://via.placeholder.com/325" class="img-fluid rounded float-start portImage" alt="Project 2">
-                </figure>
-                <figcaption>Project 2</figcaption>
-                <figure class="figure">
-                    <img src="https://via.placeholder.com/325" class="img-fluid rounded float-start portImage" alt="Project 3">
-                </figure>
-                <figcaption>Project 3</figcaption>
-                <figure class="figure">
-                    <img src="https://via.placeholder.com/325" class="img-fluid rounded float-start portImage" alt="Project 4">
-                </figure>
-                <figcaption>Project 4</figcaption>
-                <figure class="figure">
-                    <img src="https://via.placeholder.com/325" class="img-fluid rounded float-start portImage" alt="Project 5">
-                </figure>
-                <figcaption>Project 5</figcaption>
-                <figure class="figure">
-                    <img src="https://via.placeholder.com/325" class="img-fluid rounded float-start portImage" alt="Project 6">
-                </figure>
-                <figcaption>Project 6</figcaption>
-                
-        </section>
+        <div class="row">
+            <section>
+                <h1 class="portfolio">Portfolio</h1>
+                <hr>
+            </section>
+        </div>
+        <div class="row justify-content-around">
+                <div class="col-lg-4">
+                    <figure class="figure">
+                        <img src="https://via.placeholder.com/300" class="img-fluid rounded" alt="Project 1">
+                        <figcaption>Project 1</figcaption>
+                    </figure>
+                    <figure class="figure">
+                        <img src="https://via.placeholder.com/300" class="img-fluid rounded" alt="Project 2">
+                        <figcaption>Project 2</figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4">
+                    <figure class="figure">
+                        <img src="https://via.placeholder.com/300" class="img-fluid rounded" alt="Project 3">
+                        <figcaption>Project 3</figcaption>
+                    </figure>
+                    <figure class="figure">
+                        <img src="https://via.placeholder.com/300" class="img-fluid rounded" alt="Project 4">
+                        <figcaption>Project 4</figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4">
+                    <figure class="figure">
+                        <img src="https://via.placeholder.com/300" class="img-fluid rounded" alt="Project 5">
+                        <figcaption>Project 5</figcaption>
+                    </figure>
+                </div>
+            <hr>
+        </div>    
     </main>
-          
+    <footer class="container">
+        <p>Copyright Greg Riss 2020</p>
+        <a id="email" href="mailto:gregriss23@gmail.com">gregriss23@gmail.com</a>
+        <a id="linkedIn" href="https://www.linkedin.com/in/greg-riss-3023b191/">Linkedin</a>
+      </footer> 
 </body>
 </html>

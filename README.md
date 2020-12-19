@@ -20,6 +20,8 @@ https://getboostrap.com/docs
 
 I also referenced https://w3schools.com for HTML and CSS documentation.
 
+Finally, I referenced an article by Sara Cope at https://css-tricks.com/almanac/properties/b/box-shadow/ for box shadow documentation.
+
 ## License
 
 Copyright (c) [2020] [Greg Riss]
