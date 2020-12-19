@@ -1,0 +1,87 @@
+* {
+    style: @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600&display=swap');
+}
+
+body {
+    background-image: url("../images/pink-sunset.jpeg");
+    color: white;
+}
+
+nav {
+    background-color: skyblue;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    padding: 30px;
+    /*-webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+    */
+}
+
+main {
+    border: solid black 2px;
+}
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    padding-top: 68px;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    padding-right: 5%;
+}
+
+.portImage {
+    display: flex;
+    justify-content: space-around;
+    border: solid black;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+.container-lg {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+#sedonaPic {
+    height: auto;
+    padding: 10%;
+}
+
+.portfolio {
+    text-align: center;
+}
+
+figure {
+    padding: 10px;
+}
+
+footer {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#name {
+    font-size: 35px;
+    padding: 20px;
+}
+
+#email {
+    font-family: 'Cambria';
+    font-size: 20px;
+    text-decoration: none;
+    color: lightpink;
+    text-align: center;
+}
+
+#horiseon {
+    height: 325px;
+
+}

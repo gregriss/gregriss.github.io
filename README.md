@@ -4,8 +4,9 @@
 
 For this project, I built and deployed a responsive portfolio to showcase my Web Development projects and tell vistors a bit about myself. 
 
-The project is deployed here: 
-## Installation
+The project is deployed here: https://gregriss.github.io
+
+The code can be viewed here: https://github.com/gregriss/gregriss.github.io.git
 
 ## Usage
 
@@ -13,6 +14,11 @@ The project is deployed here:
 ![Here's a screenshot of my Home Page!](assets/images/screenshot.png)
 ```
 ## Credits
+
+I referenced Bootstrap's documentation for this project, which can be found at:
+https://getboostrap.com/docs
+
+I also referenced https://w3schools.com for HTML and CSS documentation.
 
 ## License
 

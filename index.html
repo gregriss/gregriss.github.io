@@ -6,50 +6,47 @@
     <title>Greg's Homepage</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/main.css"> 
+    <link rel="stylesheet" href="assets/css/main.css" /> 
 </head>
 
 <body>
-    <header class="container">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Greg Riss</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="index.html">About</a>
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-              <a class="nav-link" href="contact.html">Contact</a>
-            </div>
+  <header class="container-fluid">
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <a id ="name" class="navbar-brand">Greg Riss</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="index.html">About</a>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </div>
         </div>
-      </nav>
-      <h1>About Me</h1>
-    </header>
+      </div>
+    </nav>
+  </header>
 
-    <main class="container">
-        <section class="container">
+  <main class="container">
+    <section>
+      <div class="row">
+        <div class="col-6">
           <figure class="figure">
-            <img src="https://via.placeholder.com/350" class="figure-img img-fluid rounded" alt="Picture of Greg Riss">
-        </figure>
-        <figcaption class="figure-caption">This is a relevant image.
-        </figcaption>
-        </section>
-        <section class="container">
-            <p>I'm an aspiring web developer who has an eye for detail and a passion for clarity. I have I've always been keen at spotting mistakes, even in published books and magazines. In middle school English class, I corrected a typo in an essay question my teacher had written, only to have my entire answer marked wrong, because I needed to "be more serious". I look forward to being able to design, refactor, and debug web applications in order to put my attention to detail to good use.
-            </p>
-            
-        </section>
-        <section class="container">
-          <h3>Email</h3>
-            <p><a href="mailto:gregriss23@gmail.com">gregriss23@gmail.com</a></p>
-        </section>
-    </main>
+            <img id="sedonaPic" src="assets/images/sedona-selfie.jpeg" class="img-fluid figure-img rounded" alt="Picture of Greg Riss">
+          </figure>
+        </div> 
+        <div class="col-6">    
+          <h1 class="aboutMe">About Me</h1>    
+          <p>I'm an aspiring web developer who has an eye for detail and a passion for clarity. I've always been keen at spotting mistakes, even in published books and magazines. In middle school English class, I corrected a typo in an essay question my teacher had written, only to have my entire answer marked wrong, because I needed to "be more serious". I look forward to being able to design, refactor, and debug web applications in order to put my attention to detail to good use.
+          </p>
+        </div>
+      </div>
+  </main>
 
     <footer class="container">
         <p>Copyright Greg Riss 2020</p>
+        <a id="email" href="mailto:gregriss23@gmail.com">gregriss23@gmail.com</a>
     </footer> 
 </body>
 </html>
