@@ -1,12 +1,25 @@
-body {
+h1 {
+    padding: 15px;
+}
+
+.portImage {
+    display: flex;
+    justify-content: center;
+    border: solid 20px;
+}
+
+figcaption {
+
+}
+}
+/* body {
     color: bisque;
     background-color: rgb(54, 54, 54);
 }
 
-h1 {
-    font-weight: bold;
+.portfolio {
+    text-align: center;
 }
-
 main {
     text-align: center;
     float: left;
@@ -24,7 +37,12 @@ p {
     font-family: cursive;
 }
 
+*/
 footer {
-    clear: both;
-
+    background: red;
+    font-family: 'Courier';
+    display: flex;
+    justify-content: center;
+    color: green;
+    
 }

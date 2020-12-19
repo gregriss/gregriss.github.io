@@ -3,59 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Greg's Portfolio</title>
+    <title>Greg's Homepage</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/main.css" >
+    <link rel="stylesheet" href="assets/main.css"> 
 </head>
 
 <body>
     <header class="container">
-    
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#">Greg Riss</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">About Me</a>
-              <a class="nav-link" href="#">Projects</a>
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              <a class="nav-link active" aria-current="page" href="index.html">About</a>
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </div>
           </div>
         </div>
       </nav>
+      <h1>About Me</h1>
+    </header>
 
     <main class="container">
-        <section>
-            <h2>My Projects</h2>
-            <p>This is my portfolio, where all of my personal projects will be stored. </p>
+        <section class="container">
+          <figure class="figure">
+            <img src="https://via.placeholder.com/350" class="figure-img img-fluid rounded" alt="Picture of Greg Riss">
+        </figure>
+        <figcaption class="figure-caption">This is a relevant image.
+        </figcaption>
         </section>
-        <section>
-            <h2>My Experience</h2>
-            <p>Here is a list of my experience in web development.</p>
-            <ul>
-                <li>Bootcamp</li>
-                <li>Internship</li>
-                <li>IT Work</li>
-            </ul>
+        <section class="container">
+            <p>I'm an aspiring web developer who has an eye for detail and a passion for clarity. I have I've always been keen at spotting mistakes, even in published books and magazines. In middle school English class, I corrected a typo in an essay question my teacher had written, only to have my entire answer marked wrong, because I needed to "be more serious". I look forward to being able to design, refactor, and debug web applications in order to put my attention to detail to good use.
+            </p>
+            
+        </section>
+        <section class="container">
+          <h3>Email</h3>
+            <p><a href="mailto:gregriss23@gmail.com">gregriss23@gmail.com</a></p>
         </section>
     </main>
 
-    <aside>
-        <figure>
-            <img src="https://via.placeholder.com/125" alt="Image">
-        </figure>
-        <figcaption>This is a relevant image.
-        </figcaption>
-    </aside>
-
-    <footer>
-        <p>Created by Greg Riss</p>
-        <p><a href="gregriss23@gmail.com">gregriss23@gmail.com</a></p>
-    </footer>
+    <footer class="container">
+        <p>Copyright Greg Riss 2020</p>
+    </footer> 
 </body>
 </html>
