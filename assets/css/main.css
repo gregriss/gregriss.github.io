@@ -1,14 +1,10 @@
-* {
-    
-}
-
+/* Adding a background image, text color, font. */
 body {
     background-image: url("../images/pink-sunset.jpeg");
     color: white;
     font-family: 'Jura', sans-serif;
-    
 }
-
+/* adding a box shadow, background color, changing default navbar styles.*/
 nav {
     -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
@@ -20,25 +16,29 @@ nav {
     padding: 30px;
 }
 
-main {
-    /* border: solid black 2px; */
-    
-}
-
 h1 {
     padding-top: 40px;
 }
-
+/* Making font size more uniform across the website.*/
 p,
 figcaption,
 label {
     font-size: 18px;
 }
-
+/* Making more space between portfolio images. */
+figure {
+    padding: 10px;
+}
+/* Specifying font size and format for footer.*/
+footer {
+    font-size: 20px;
+    text-align: center;
+}
+/*allowed the navbar to span entire window. */
 .container-fluid {
     padding: 0px;
-}
-
+} 
+/* Editing appearance of contact input boxes, paragraphs, image padding. */ 
 .container-lg {
     padding-left: 15%;
     padding-right: 15%;
@@ -46,6 +46,8 @@ label {
 
 .aboutMeParagraph {
     padding-top: 45px;
+    padding-right: 30px;
+    padding-bottom: 40px;
 }
 .portImage {
     height: 300px;
@@ -56,27 +58,13 @@ label {
     height: auto;
     padding: 12%;
 }
-
-#aboutMeParagraph {
-    padding-right: 10%;
-}
-
-figure {
-    padding: 10px;
-}
-
-footer {
-    font-size: 20px;
-    text-align: center;
-    position: 
-}
-
+/* Changing the appearance for just my name at the top. */
 #name {
     font-size: 40px;
     font-weight: bolder;
     padding: 20px;
 }
-
+/* Adding unique style for my email link. */
 #email {
     font-family: 'Cambria';
     font-size: 20px;
@@ -84,7 +72,7 @@ footer {
     color: lightpink;
     text-align: center;
 }
-
+/* Unique style for the Linkedin link. */
 #linkedIn {
     color: lightskyblue;
 }

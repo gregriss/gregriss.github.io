@@ -13,7 +13,7 @@ The code can be viewed here: https://github.com/gregriss/gregriss.github.io.git
 This website should be simple and clear to use, due to Bootstrap's fancy navbar presets.
 
 Here's a screenshot of the Homepage:
-![Greg's Homepage](assets/images/homepage-screenshot.jpg)
+![Greg's Homepage](assets/images/homepage-screenshot.png)
 
 ## Credits
 
