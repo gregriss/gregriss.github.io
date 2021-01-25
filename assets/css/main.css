@@ -26,8 +26,12 @@ nav {
     padding: 30px;
 }
 
+/* main {
+    display: flex;
+    ;
+} */
 h1 {
-    padding-top: 40px;
+    padding: 40px 0 15px 0;
 }
 /* Making font size more uniform across the website.*/
 p,
@@ -44,8 +48,8 @@ footer {
     font-size: 20px;
     text-align: center;
     flex: 1;
-    margin: 40px;
-    scroll-padding-top: 40%;
+    margin-top: 20%;
+    padding: 10px;
 }
 /*allowed the navbar to span entire window. */
 .container-fluid {
@@ -59,19 +63,22 @@ footer {
     padding-right: 15%; */
 }
 
-.aboutMeParagraph {
-    padding-top: 45px;
-    padding-right: 30px;
-    padding-bottom: 40px;
+#about-h1 {
+    padding: 5%;
 }
+.about {
+    height: auto;
+    padding: 5%;
+}
+
 .portImage {
     height: 300px;
     width: 300px;
 }
 
 #sedonaPic {
-    height: auto;
-    padding: 12%;
+    max-height: auto;
+    
 }
 /* Changing the appearance for just my name at the top. */
 #name {
