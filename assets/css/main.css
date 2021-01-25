@@ -19,10 +19,9 @@ body {
 nav {
     -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
-    box-shadow: 0 15px 20px -6px rgb(66, 24, 105);
+    box-shadow: 0 15px 20px -6px rgb(61, 26, 93);
     background: lightcyan;
     font-size: 20px;
-    font-weight: bold;
     width: 100%;
     padding: 30px;
 }
@@ -46,6 +45,7 @@ footer {
     text-align: center;
     flex: 1;
     margin: 40px;
+    scroll-padding-top: 40%;
 }
 /*allowed the navbar to span entire window. */
 .container-fluid {
