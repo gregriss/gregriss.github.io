@@ -2,14 +2,20 @@
 html, 
 body {
     background-image: url("../images/pink-sunset.jpeg");
-    color: white;
-    font-family: 'Jura', sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(0, 0, 0); 
+    /* color: white */
+    /* font-family: 'Jura', sans-serif; */
+    font-family: 'Nunito';
     height: 100%;
+    /* padding: 0; */
 }
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    border: solid black 1px;
 }
 
 .wrapper {
@@ -37,7 +43,9 @@ h1 {
 p,
 figcaption,
 label {
+    font-family: 'Nunito',sans-serif;
     font-size: 18px;
+    
 }
 /* Making more space between portfolio images. */
 figure {
@@ -47,8 +55,8 @@ figure {
 footer {
     font-size: 20px;
     text-align: center;
-    flex: 1;
-    margin-top: 20%;
+    /* flex: 1; */
+    margin-bottom: 0;
     padding: 10px;
 }
 /*allowed the navbar to span entire window. */
@@ -76,13 +84,19 @@ footer {
     width: 300px;
 }
 
+.navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    
+}
 #sedonaPic {
     max-height: auto;
+    box-shadow:rgb(61, 26, 93);
     
 }
 /* Changing the appearance for just my name at the top. */
 #name {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bolder;
     padding: 20px;
 }
