@@ -1,13 +1,13 @@
 /* Adding a background image, text color, font. */
 html, 
 body {
-    background-image: url("../images/pink-sunset.jpeg");
+    background-image: url("../images/mtn-img-tersius-van-rhyn.jpg");
+    background-size: auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: rgb(0, 0, 0); 
-    /* color: white */
-    /* font-family: 'Jura', sans-serif; */
-    font-family: 'Nunito';
+    /* color: rgb(0, 0, 0);  */
+    color: rgb(231, 231, 231);
+    font-family: 'Nunito' sans-serif;
     height: 100%;
     /* padding: 0; */
 }
@@ -15,27 +15,25 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    border: solid black 1px;
+    /* border: solid black 1px; */
 }
 
 .wrapper {
     flex: 1 0 auto;
 }
+
 /* adding a box shadow, background color, changing default navbar styles.*/
 nav {
-    -webkit-box-shadow: 0 8px 6px -6px #999;
+    /* -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
-    box-shadow: 0 15px 20px -6px rgb(61, 26, 93);
-    background: lightcyan;
+    box-shadow: 0 15px 20px -6px rgb(42, 41, 61); */
+    /* background: rgb(58, 75, 97); */
+    color:rgb(231, 231, 231);
     font-size: 20px;
     width: 100%;
     padding: 30px;
 }
 
-/* main {
-    display: flex;
-    ;
-} */
 h1 {
     padding: 40px 0 15px 0;
 }
@@ -43,8 +41,8 @@ h1 {
 p,
 figcaption,
 label {
-    font-family: 'Nunito',sans-serif;
-    font-size: 18px;
+    /* font-family: 'Nunito',sans-serif; */
+    font-size: 120%;
     
 }
 /* Making more space between portfolio images. */
@@ -71,6 +69,9 @@ footer {
     padding-right: 15%; */
 }
 
+.nav-word {
+    color: rgb(226, 199, 136);
+}
 #about-h1 {
     padding: 5%;
 }
@@ -89,15 +90,17 @@ footer {
     justify-content: flex-end;
     
 }
+
 #sedonaPic {
     max-height: auto;
-    box-shadow:rgb(61, 26, 93);
+    
     
 }
 /* Changing the appearance for just my name at the top. */
 #name {
+    color:rgb(226, 199, 136);
     font-size: 30px;
-    font-weight: bolder;
+    font-weight: bold;
     padding: 20px;
 }
 /* Adding unique style for my email link. */
