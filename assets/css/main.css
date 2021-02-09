@@ -23,7 +23,6 @@ nav {
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 15px 20px -6px rgb(42, 41, 61); */
     /* background: rgb(58, 75, 97); */
-
     /* background: rgb(49, 54, 78); */
     font-size: 20px;
     width: 100%;
@@ -31,6 +30,9 @@ nav {
     margin-bottom: 4%;
 }
 
+h1 {
+    color:rgb(226, 199, 136);
+}
 /* Making font size more uniform across the website.*/
 p,
 figcaption,
@@ -85,9 +87,6 @@ footer {
     background:rgb(12, 12, 12);
 }
 
-/* figcaption {
-    background:rgb(26, 26, 26);
-} */
 .about {
     height: auto;
     /* padding: 5%; */
@@ -98,8 +97,17 @@ footer {
     margin: 0 3%;
 }
 
+.nav-link {
+    margin: 0 6%;
+}
+
 .portfolio {
     padding-left: 15px;
+}
+
+.port-img {
+    /* height: 258px;
+    width: 390px; */
 }
 #sedonaPic { 
     /* max-height: 30%; */
@@ -116,7 +124,7 @@ footer {
 
 .footer-links {
     font-size: 20px;
-    margin: 10px 7px 7px 7px;
+    margin: 10px 7px 10px 7px;
     text-decoration: none;
     transition: 0.2s ease-in-out;
 }
