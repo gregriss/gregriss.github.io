@@ -2,9 +2,9 @@
 html, 
 body {
     background-image: url("../images/mtn-img-tersius-van-rhyn.jpg");
-    
+    background-color:rgb(26, 26, 26);
+    /* background-position-y: -35%; */
     background-size: cover;
-    /* background-repeat: space; */
     background-attachment: fixed;
     /* color: rgb(231, 231, 231); */
     color: rgb(255, 249, 239);
@@ -15,8 +15,8 @@ body {
 body {
     display: flex;
     flex-direction: column;
-    /* margin: 5px; */
 }
+
 /* box shadow, background color, changing default navbar styles.*/
 nav {
     /* -webkit-box-shadow: 0 8px 6px -6px #999;
@@ -30,19 +30,15 @@ nav {
     padding: 15px;
     margin-bottom: 4%;
 }
-/* h1 {
-    padding: 2%;
-    padding: 10% 0 5% 0; 
-} */
+
 /* Making font size more uniform across the website.*/
 p,
 figcaption,
 label {
     /* font-family: 'Nunito',sans-serif; */
     font-size: 110%;
-    line-height: 30px;
-    letter-spacing: 1px;
-    
+    line-height: 35px;
+    letter-spacing: 0.8px;
 }
 /* Making space between portfolio images. */
 figure {
@@ -51,15 +47,13 @@ figure {
 
 /* Specifying font size and format for footer.*/
 footer {
-    /* font-size: 20px; */
     flex-shrink: 0;
     /* background:rgb(49, 54, 78); */
-    padding: 15px;
+    background:rgb(0, 0, 0);
+    box-shadow: 0 -20px 30px 2px rgb(0, 0, 0);
+    padding: 5px 0 15px 0;
     margin: 0;
     text-align: center;
-    /* display: flex;
-    flex-flow: row nowrap; */
-    /* margin: 10px 5px; */
 }
 
 .wrapper {
@@ -82,8 +76,17 @@ footer {
     padding-right: 15%; */
 }
 
-/* #about-h1 {
-    padding: 5%;
+/* .card {
+    background: rgb(72, 75, 121);
+} */
+
+.btn {
+    /* background: rgb(26, 26, 26); */
+    background:rgb(12, 12, 12);
+}
+
+/* figcaption {
+    background:rgb(26, 26, 26);
 } */
 .about {
     height: auto;
@@ -92,12 +95,16 @@ footer {
 
 .navbar-nav {
     text-align: right;
-    margin: 0 2%;
+    margin: 0 3%;
 }
 
+.portfolio {
+    padding-left: 15px;
+}
 #sedonaPic { 
     /* max-height: 30%; */
-    margin-right: 5%;
+    margin-right: 7% !important;
+    border-radius: 15px !important;
 }
 /* Changing the appearance for just my name at the top. */
 #name {
