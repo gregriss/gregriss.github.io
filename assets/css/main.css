@@ -2,60 +2,72 @@
 html, 
 body {
     background-image: url("../images/mtn-img-tersius-van-rhyn.jpg");
-    background-size: auto;
-    background-repeat: no-repeat;
+    
+    background-size: cover;
+    /* background-repeat: space; */
     background-attachment: fixed;
-    /* color: rgb(0, 0, 0);  */
-    color: rgb(231, 231, 231);
+    /* color: rgb(231, 231, 231); */
+    color: rgb(255, 249, 239);
     font-family: 'Nunito' sans-serif;
     height: 100%;
-    /* padding: 0; */
 }
+
 body {
     display: flex;
     flex-direction: column;
+    /* margin: 5px; */
+}
+/* box shadow, background color, changing default navbar styles.*/
+nav {
+    /* -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 15px 20px -6px rgb(42, 41, 61); */
+    /* background: rgb(58, 75, 97); */
+
+    /* background: rgb(49, 54, 78); */
+    font-size: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 4%;
+}
+/* h1 {
+    padding: 2%;
+    padding: 10% 0 5% 0; 
+} */
+/* Making font size more uniform across the website.*/
+p,
+figcaption,
+label {
+    /* font-family: 'Nunito',sans-serif; */
+    font-size: 110%;
+    line-height: 30px;
+    letter-spacing: 1px;
+    
+}
+/* Making space between portfolio images. */
+figure {
+    padding: 3%;
+}
+
+/* Specifying font size and format for footer.*/
+footer {
+    /* font-size: 20px; */
+    flex-shrink: 0;
+    /* background:rgb(49, 54, 78); */
+    padding: 15px;
     margin: 0;
-    /* border: solid black 1px; */
+    text-align: center;
+    /* display: flex;
+    flex-flow: row nowrap; */
+    /* margin: 10px 5px; */
 }
 
 .wrapper {
     flex: 1 0 auto;
 }
 
-/* adding a box shadow, background color, changing default navbar styles.*/
-nav {
-    /* -webkit-box-shadow: 0 8px 6px -6px #999;
-    -moz-box-shadow: 0 8px 6px -6px #999;
-    box-shadow: 0 15px 20px -6px rgb(42, 41, 61); */
-    /* background: rgb(58, 75, 97); */
-    color:rgb(231, 231, 231);
-    font-size: 20px;
-    width: 100%;
-    padding: 30px;
-}
-
-h1 {
-    padding: 40px 0 15px 0;
-}
-/* Making font size more uniform across the website.*/
-p,
-figcaption,
-label {
-    /* font-family: 'Nunito',sans-serif; */
-    font-size: 120%;
-    
-}
-/* Making more space between portfolio images. */
-figure {
-    padding: 10px;
-}
-/* Specifying font size and format for footer.*/
-footer {
-    font-size: 20px;
-    text-align: center;
-    /* flex: 1; */
-    margin-bottom: 0;
-    padding: 10px;
+.container {
+    flex: 1 0 auto;
 }
 /*allowed the navbar to span entire window. */
 .container-fluid {
@@ -64,54 +76,73 @@ footer {
 } 
 /* Editing appearance of contact input boxes, paragraphs, image padding. */ 
 .container-lg {
-    max-width: 50%;
+    margin: 4% auto;
+    max-width: 65%;
     /* padding-left: 15%;
     padding-right: 15%; */
 }
 
-.nav-word {
-    color: rgb(226, 199, 136);
-}
-#about-h1 {
+/* #about-h1 {
     padding: 5%;
-}
+} */
 .about {
     height: auto;
-    padding: 5%;
-}
-
-.portImage {
-    height: 300px;
-    width: 300px;
+    /* padding: 5%; */
 }
 
 .navbar-nav {
-    display: flex;
-    justify-content: flex-end;
-    
+    text-align: right;
+    margin: 0 2%;
 }
 
-#sedonaPic {
-    max-height: auto;
-    
-    
+#sedonaPic { 
+    /* max-height: 30%; */
+    margin-right: 5%;
 }
 /* Changing the appearance for just my name at the top. */
 #name {
     color:rgb(226, 199, 136);
-    font-size: 30px;
-    font-weight: bold;
-    padding: 20px;
+    font-size: 28px;
+    letter-spacing: 1px;
+    padding: 15px;
+}
+
+.footer-links {
+    font-size: 20px;
+    margin: 10px 7px 7px 7px;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+#github {
+    color:rgb(255, 249, 239);
+}
+
+#github:hover {
+    color: rgb(191, 248, 255);
 }
 /* Adding unique style for my email link. */
 #email {
-    font-family: 'Cambria';
-    font-size: 20px;
-    text-decoration: none;
-    color: lightpink;
-    text-align: center;
+    color: rgb(255, 221, 128);
+    /* text-align: center; */
+}
+
+#email:hover {
+    color: rgb(255, 236, 185);
 }
 /* Unique style for the Linkedin link. */
 #linkedIn {
     color: lightskyblue;
+}
+
+#linkedIn:hover {
+    color: rgb(179, 226, 255);
+}
+
+#resume {
+    color:rgb(255, 249, 239); 
+}
+
+#resume:hover {
+    color: rgb(191, 248, 255);
 }
