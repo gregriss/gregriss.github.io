@@ -32,6 +32,11 @@ nav {
 
 h1 {
     color:rgb(226, 199, 136);
+    margin-bottom: 10px;
+}
+
+img {
+    box-shadow: 3px 3px 15px 5px rgb(24, 24, 24);
 }
 /* Making font size more uniform across the website.*/
 p,
@@ -39,8 +44,21 @@ figcaption,
 label {
     /* font-family: 'Nunito',sans-serif; */
     font-size: 110%;
-    line-height: 35px;
+    line-height: 36px;
     letter-spacing: 0.8px;
+}
+ 
+p {
+    margin-top: 15px;
+}
+/* .form-control:active {
+    box-shadow: 2px 2px 3px 5px blanchedalmond !important;
+    -webkit-box-shadow: none !important;
+    -webkit-box-shadpw: 2px 2px 2px 1px blanchedalmond !important;
+}  */
+p,
+#about-h1 {
+    margin-left: 10px;
 }
 /* Making space between portfolio images. */
 figure {
@@ -102,10 +120,12 @@ footer {
 }
 
 .portfolio {
-    padding-left: 15px;
+    margin-left: 15px;
+    /* padding-left: 15px; */
 }
 
 .port-img {
+    border-radius: 10px !important;
     /* height: 258px;
     width: 390px; */
 }
