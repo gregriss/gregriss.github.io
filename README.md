@@ -1,4 +1,5 @@
-# Greg Riss's Portfolio
+# Greg Riss's Portfolio  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
@@ -6,7 +7,14 @@ For this project, I built and deployed a responsive personal portfolio to showca
 
 The project is deployed here: https://gregriss.github.io
 
-The code can be viewed here: https://github.com/gregriss/gregriss.github.io.git
+The code can be viewed here: https://github.com/gregriss/gregriss.github.io.git  
+
+## Table of Contents  
+
+- [Usage](#Usage)  
+- [Credits](#Credits)  
+- [License](#License)  
+- [Questions](#Questions)
 
 ## Usage
 
@@ -54,4 +62,10 @@ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.  
+
+## Questions  
+
+Greg's Gitub Profile: https://github.com/gregriss  
+
+If you have any questions about me, my work, or my portfolio, you can reach me at [gregriss23@gmail.com](mailto:gregriss23@gmail.com)
