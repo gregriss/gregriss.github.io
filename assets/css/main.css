@@ -1,21 +1,19 @@
 /* Adding a background image, text color, font. */
 html, 
 body {
+    height: 100%;
     background-image: url("../images/mtn-img-tersius-van-rhyn.jpg");
     background-color:rgb(26, 26, 26);
     background-size: cover;
     background-attachment: fixed;
     color: rgb(255, 249, 239);
-    font-family: 'Segoe UI' 'sans-serif';
-    height: 100%;
 }
 
-body {
+/* body {
     display: flex;
     flex-direction: column;
-}
+} */
 
-/* changing default navbar styles.*/
 nav {
     font-size: 20px;
     width: 100%;
@@ -25,7 +23,7 @@ nav {
 
 h1 {
     color:rgb(226, 199, 136);
-    margin-bottom: 10px;
+    margin-bottom: 3%;
     /* font-family: 'Roboto' sans-serif; */
 }
 
@@ -51,16 +49,6 @@ p {
     box-shadow: 2px 2px 10px 5px rgb(15, 15, 15);
 }
 
-span {
-    /* background: burlywood; */
-    /* color:rgb(36, 36, 36); */
-    display: inline-block;
-    background:rgb(26, 26, 26);
-    color: rgb(240, 240, 240);
-    margin: 4px;
-    padding: 3px 6px;
-    border-radius: 20px;
-}
 p,
 #about-h1 {
     margin-left: 10px;
@@ -69,8 +57,6 @@ p,
 figure {
     padding: 3%;
     margin-right: 5%;
-    /* display: flex;
-    flex-flow: row wrap; */
 }
 
 input, 
@@ -79,12 +65,16 @@ textarea {
     box-shadow: 1px 1px 10px 3px rgb(49, 49, 49);
 }
 
+h6 {
+    opacity: 0.65;
+    margin: 2%;
+}
 /* Specifying font size and format for footer.*/
 footer {
     flex-shrink: 0;
     background:rgb(0, 0, 0);
     box-shadow: 0 -20px 30px 2px rgb(0, 0, 0);
-    padding: 5px 0 15px 0;
+    padding: 15px 0;
     margin: 0;
     text-align: center;
 }
@@ -102,6 +92,9 @@ footer {
     margin: 0px;
 } 
 
+.contact-container {
+    margin-bottom: 10%;
+}
 .btn {
     background:rgb(12, 12, 12);
 }
@@ -116,17 +109,31 @@ footer {
 }
 
 .navbar-nav {
-    text-align: right;
     margin: 0 3%;
 }
 
-.portfolio {
-    margin-left: 10px;
+.nav-link {
+    margin: 0 3%;
+}
+.portfolio-container {
+    width: 100%;
+    margin: 15% 0 8% 0;
+    padding: 3%;
+    background-color: rgb(26, 26, 26);
+    opacity: 0.95;
+}
+
+.portfolio-h2 {
+    /* margin-left: 10px; */
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 2.3rem;
 }
 
 .port-img {
     border-radius: 10px !important;
-    background: white;
+    /* background: white; */
+    background: rgb(26, 26, 26);
     transition: 0.25s ease-in-out;
     margin: 2% 0;
 }
@@ -135,12 +142,39 @@ footer {
     opacity: 0.92;
 }
 
+.tech-span {
+    font-family: 'Nunito',sans-serif;
+    font-size: 110%;
+    line-height: 36px;
+    letter-spacing: 0.9px;
+    display: inline-block;
+    /* background:rgb(26, 26, 26); */
+    background: black;
+    /* color: rgb(240, 240, 240); */
+    color: rgb(255, 221, 128);
+    margin: 4px;
+    padding: 3px 6px;
+    border-radius: 20px;
+}
+
+.github-img-sm {
+    height: 24px;
+    width: 24px;
+    padding: 2px;
+}
+
+.heroku-img {
+    height: 40px;
+    width: 34px;
+}
+
 .port-link {
     display: inline-block;
+    text-decoration: none;
     color: rgb(238, 238, 238);
     /* background:rgb(46, 44, 42); */
     background:rgb(26, 26, 26);
-    margin: 5px;
+    margin: 2px 5px;
     padding: 3px 8px;
     border-radius: 6px;
     /* box-shadow: 1px 1px 8px 5px rgb(24, 24, 24); */
@@ -148,7 +182,11 @@ footer {
 
 .port-link:hover {
     color: rgb(255, 221, 128); 
-    text-decoration: none;
+}
+
+.contact-h2 {
+    /* color:rgb(226, 199, 136); */
+    font-size: 2.3rem;
 }
 
 #sedonaPic { 
@@ -164,7 +202,7 @@ footer {
 
 .footer-links {
     font-size: 20px;
-    margin: 10px 7px 10px 7px;
+    margin: 10px 7px 7px 7px;
     padding: 5px;
     border-radius: 8px;
     text-decoration: none;
@@ -191,6 +229,10 @@ footer {
 #github:hover {
     color: rgb(191, 248, 255);
 }
+
+#github-img {
+    margin: 3px;
+}
 /* Adding unique style for my email link. */
 #email {
     color: rgb(255, 221, 128);
@@ -207,6 +249,13 @@ footer {
 
 #linkedIn:hover {
     color: rgb(179, 226, 255);
+}
+
+#linkedin-img {
+    height: 31px;
+    width: 36px;
+    margin: 3px;
+    box-shadow: none;
 }
 
 #resume {

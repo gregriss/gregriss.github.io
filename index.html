@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +13,7 @@
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="assets/css/main.css" />
 </head>
+
 <body class="wrapper">
   <header class="container-fluid">
     <nav class="navbar navbar-expand-md navbar-dark">
@@ -24,8 +26,9 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-link active nav-text nav-word" aria-current="page" href="index.html">About</a>
-            <a class="nav-link nav-text nav-word" href="portfolio.html">Portfolio</a>
-            <a class="nav-link nav-text nav-word" href="contact.html">Contact</a>
+            <a class="nav-link nav-text nav-word" href="#portfolio">Portfolio</a>
+            <a class="nav-link nav-text nav-word" href="#contact">Contact</a>
+            <a class="nav-link nav-text nav-word" href="assets/resume/resume.pdf" target="_blank">Resume</a>
           </div>
         </div>
       </div>
@@ -39,7 +42,7 @@
             alt="Picture of Greg Riss">
         </figure>
       </div>
-      <div class="col-8">
+      <div id="aboutMeContainer" class="col-8">
         <h1 id="about-h1" class="about">About Me</h1>
         <p class="aboutMeParagraph about card">
           I'm a web developer who has an eye for detail and a passion for clarity. I've always been keen at
@@ -51,12 +54,152 @@
       </div>
     </div>
   </main>
+  <section id="portfolio" class="portfolio-container container-fluid">
+    <div class="row">
+      <section class="col">
+        <h2 class="portfolio-h2">Portfolio</h2>
+      </section>
+    </div>
+    <div class="row">
+      <div class="col-lg-5 offset-1">
+        <figure class="figure">
+          <span class="tech-span">Node.js</span>
+          <span class="tech-span">Passport.js</span>
+          <span class="tech-span">Handlebars</span>
+          <span class="tech-span">Express.js</span>
+          <span class="tech-span">MySQL</span>
+          <span class="tech-span">Sequelize</span>
+          <span class="tech-span">Google Maps API</span>
+          <span class="tech-span">OpenWeather API</span>
+          <span class="tech-span">HTML/CSS</span>
+          <span class="tech-span">Bootstrap</span><br>
+          <a href="https://apple-shortcake-96876.herokuapp.com/" target="_blank">
+            <img src="assets/images/pathfinder-in-use.png" class="img-fluid rounded port-img" alt="Pathfinder Project">
+          </a>
+          <figcaption>
+            <a href="https://apple-shortcake-96876.herokuapp.com/" target="_blank" class="port-link">
+              <img class="heroku-img" src="assets/images/heroku-logotype-vertical-white.png">
+              Live Site
+            </a>
+            <a href="https://github.com/Patrick-Kaczmar/Path-Finder" target="_blank" class="port-link">
+              <img class="github-img-sm" src="assets/images/github-mark-light-32px.png">
+              Code
+            </a>
+          </figcaption>
+        </figure>
+        <figure class="figure">
+          <span class="tech-span">Node.js</span>
+          <span class="tech-span">Handlebars</span>
+          <span class="tech-span">Express.js</span>
+          <span class="tech-span">MySQL</span><br>
+          <a href="https://peaceful-coast-04978.herokuapp.com/" target="_blank">
+            <img src="assets/images/burger-home.png" class="img-fluid rounded port-img" alt="Log a Burger">
+          </a>
+          <figcaption>
+            <a href="https://peaceful-coast-04978.herokuapp.com/" target="_blank" class="port-link">
+              <img class="heroku-img" src="assets/images/heroku-logotype-vertical-white.png">
+              Live Site
+            </a>
+            <a href="https://github.com/gregriss/log-a-burger" target="_blank" class="port-link">
+              <img class="github-img-sm" src="assets/images/github-mark-light-32px.png">
+              Code 
+            </a>
+          </figcaption>
+        </figure>
+        <figure class="figure">
+          <span class="tech-span">Deezer API</span>
+          <span class="tech-span">RAWG API</span>
+          <span class="tech-span">Free-To-Game API</span>
+          <span class="tech-span">JavaScript</span>
+          <span class="tech-span">jQuery</span>
+          <span class="tech-span">HTML/CSS</span>
+          <span class="tech-span">Foundation</span><br>
+          <a href="https://patrick-kaczmar.github.io/GameBops/" target="_blank">
+            <img src="assets/images/gamebops-home.png" class="img-fluid rounded port-img" alt="GameBops">
+          </a>
+          <figcaption>
+            <a href="https://patrick-kaczmar.github.io/GameBops/" target="_blank" class="port-link">
+              <img class="github-img-sm" src="assets/images/github-mark-light-32px.png">
+              Live Site</a>
+            <a href="https://github.com/Patrick-Kaczmar/GameBops" target="_blank" class="port-link">
+              <img class="github-img-sm" src="assets/images/github-mark-light-32px.png">
+              Code
+            </a>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col-lg-5">
+        <figure class="figure">
+          <span class="tech-span">OpenWeather API</span>
+          <span class="tech-span">JavaScript</span>
+          <span class="tech-span">jQuery</span>
+          <span class="tech-span">HTML/CSS</span><br>
+          <a href="https://gregriss.github.io/weather-dash/" target="_blank">
+            <img src="assets/images/weather.png" class="img-fluid rounded port-img" alt="Weather Dashboard">
+          </a>
+          <figcaption>
+            <a href="https://gregriss.github.io/weather-dash/" target="_blank" class="port-link">
+              <img class="github-img-sm" src="assets/images/github-mark-light-32px.png">
+              Live Site</a>
+            <a href="https://github.com/gregriss/weather-dash" target="_blank" class="port-link">
+              <img class="github-img-sm" src="assets/images/github-mark-light-32px.png">
+              Code
+            </a>
+          </figcaption>
+        </figure>
+        <figure id="work-day" class="figure">
+          <span class="tech-span">JavaScript</span>
+          <span class="tech-span">jQuery</span>
+          <span class="tech-span">HTML/CSS</span><br>
+          <a href="https://gregriss.github.io/plan-your-day/" target="_blank">
+            <img src="assets/images/work-day.png" class="img-fluid rounded port-img" alt="Workday Scheduler">
+          </a>
+          <figcaption>
+            <a href="https://gregriss.github.io/plan-your-day/" target="_blank" class="port-link">
+              <img class="github-img-sm" src="assets/images/github-mark-light-32px.png">
+              Live Site</a>
+            <a href="https://github.com/gregriss/plan-your-day" target="_blank" class="port-link">
+              <img class="github-img-sm" src="assets/images/github-mark-light-32px.png">
+              Code
+            </a>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="container contact-container">
+    <div class="container col-lg-7">
+      <h2 class="contact-h2">Contact</h2>
+      <hr>
+      <form netlify>
+        <div class="mb-3">
+          <label class="form-label">Name</label>
+          <input name="name" type="text" id="nameInput" class="form-control" placeholder="Name">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Email</label>
+          <input name="email" type="email" id="emailInput" class="form-control" placeholder="Email">
+        </div>
+        <div class="mb-3">
+          <label for="userMessage" class="form-label">Message</label>
+          <textarea id="userMessage" class="form-control" name="userMessage" rows="3"
+            placeholder="Type your message..."></textarea>
+        </div>
+        <button id="contact-submit-btn" type="submit" class="btn btn-outline-light btn-lg">Submit</button>
+      </form>
+      <hr>
+    </div>
+  </section>
   <footer class="footer">
-    <h5>Copyright Greg Riss 2021 / / / 608-513-4734</h5>
-      <a href="https://github.com/gregriss" id="github" class="footer-links" target="_blank">GitHub</a>
-      <a href="mailto:gregriss23@gmail.com" id="email" class="footer-links">gregriss23@gmail.com</a>
-      <a href="https://www.linkedin.com/in/greg-riss-3023b191/" id="linkedIn" class="footer-links" target="_blank">Linkedin</a>
-      <a href="assets/resume/resume.pdf" id="resume" class="footer-links" target="_blank">R&eacute;sum&eacute;</a>
+    
+    <a href="https://github.com/gregriss" id="github" class="footer-links" target="_blank"><img id="github-img"
+        src="assets/images/github-mark-light-32px.png"></a>
+    <a href="mailto:gregriss23@gmail.com" id="email" class="footer-links">gregriss23@gmail.com</a>
+    <a href="https://www.linkedin.com/in/greg-riss-3023b191/" id="linkedIn" class="footer-links" target="_blank"><img
+        id="linkedin-img" src="assets/images/linkedin-logo.png"></a>
+    <a href="assets/resume/resume.pdf" id="resume" class="footer-links" target="_blank">Resume</a>
+    <h6>&COPY; Greg Riss 2021</h6>
   </footer>
 </body>
+
 </html>
