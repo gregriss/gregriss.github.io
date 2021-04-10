@@ -26,7 +26,7 @@ nav {
 h1 {
     color:rgb(226, 199, 136);
     margin-bottom: 10px;
-    font-family: 'Roboto' sans-serif;
+    /* font-family: 'Roboto' sans-serif; */
 }
 
 img {
@@ -35,11 +35,13 @@ img {
 /* Making font size more uniform across the website.*/
 p,
 figcaption,
-label {
+span,
+label,
+.port-link {
     font-family: 'Nunito',sans-serif;
     font-size: 110%;
     line-height: 36px;
-    letter-spacing: 0.8px;
+    letter-spacing: 0.9px;
 }
  
 p {
@@ -49,6 +51,15 @@ p {
     box-shadow: 2px 2px 10px 5px rgb(15, 15, 15);
 }
 
+span {
+    /* background: burlywood; */
+    /* color:rgb(36, 36, 36); */
+    background:rgb(26, 26, 26);
+    color: rgb(240, 240, 240);
+    margin: 10px 5px;
+    padding: 7px;
+    border-radius: 20px;
+}
 p,
 #about-h1 {
     margin-left: 10px;
@@ -56,6 +67,8 @@ p,
 /* Making space between portfolio images. */
 figure {
     padding: 3%;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 input, 
@@ -130,13 +143,15 @@ footer {
 }
 
 .port-link {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: rgb(255, 221, 128); 
-    background:rgb(46, 44, 42);
+    /* background:rgb(46, 44, 42); */
+    background:rgb(26, 26, 26);
     transition: 0.25s ease-in-out;
-    padding: 4px;
-    border-radius: 6px;
-    box-shadow: 1px 1px 8px 5px rgb(24, 24, 24);
+    margin: 10px 5px;
+    padding: 7px;
+    border-radius: 12px;
+    /* box-shadow: 1px 1px 8px 5px rgb(24, 24, 24); */
 }
 
 .port-link:hover {
