@@ -54,10 +54,11 @@ p {
 span {
     /* background: burlywood; */
     /* color:rgb(36, 36, 36); */
+    display: inline-block;
     background:rgb(26, 26, 26);
     color: rgb(240, 240, 240);
-    margin: 10px 5px;
-    padding: 7px;
+    margin: 4px;
+    padding: 3px 6px;
     border-radius: 20px;
 }
 p,
@@ -67,20 +68,20 @@ p,
 /* Making space between portfolio images. */
 figure {
     padding: 3%;
-    display: flex;
-    flex-flow: row wrap;
+    margin-right: 5%;
+    /* display: flex;
+    flex-flow: row wrap; */
 }
 
 input, 
 textarea {
-    background: rgb(255, 234, 201) !important;
+    /* background: rgb(255, 234, 201) !important; */
     box-shadow: 1px 1px 10px 3px rgb(49, 49, 49);
 }
 
 /* Specifying font size and format for footer.*/
 footer {
     flex-shrink: 0;
-    /* background:rgb(49, 54, 78); */
     background:rgb(0, 0, 0);
     box-shadow: 0 -20px 30px 2px rgb(0, 0, 0);
     padding: 5px 0 15px 0;
@@ -100,16 +101,8 @@ footer {
     padding: 0px;
     margin: 0px;
 } 
-/* Editing appearance of contact input boxes, paragraphs, image padding. */ 
-.container-xl {
-    margin: 4% auto;
-    /* max-width: 65%; */
-    /* padding-left: 5%;
-    padding-right: 5%; */
-}
 
 .btn {
-    /* background: rgb(26, 26, 26); */
     background:rgb(12, 12, 12);
 }
 
@@ -135,7 +128,7 @@ footer {
     border-radius: 10px !important;
     background: white;
     transition: 0.25s ease-in-out;
-    margin-bottom: 1%;
+    margin: 2% 0;
 }
 
 .port-img:hover {
@@ -143,19 +136,19 @@ footer {
 }
 
 .port-link {
-    /* text-decoration: none; */
-    color: rgb(255, 221, 128); 
+    display: inline-block;
+    color: rgb(238, 238, 238);
     /* background:rgb(46, 44, 42); */
     background:rgb(26, 26, 26);
-    transition: 0.25s ease-in-out;
-    margin: 10px 5px;
-    padding: 7px;
-    border-radius: 12px;
+    margin: 5px;
+    padding: 3px 8px;
+    border-radius: 6px;
     /* box-shadow: 1px 1px 8px 5px rgb(24, 24, 24); */
 }
 
 .port-link:hover {
-    color: rgb(238, 238, 238);
+    color: rgb(255, 221, 128); 
+    text-decoration: none;
 }
 
 #sedonaPic { 
@@ -178,12 +171,11 @@ footer {
     transition: 0.2s ease-in-out;
 }
 
-/* .footer-links:hover {
-    background:rgb(34, 34, 34);
-} */
 #contact-submit-btn {
-    box-shadow: 1px 1px 10px 5px rgb(34, 34, 34);
+    border: 1px solid rgb(240, 240, 240);
+    /* box-shadow: 1px 1px 10px 5px rgb(34, 34, 34); */
 }
+
 #contact-submit-btn:hover {
     background:rgb(226, 199, 136);
     border: 1px solid black;
