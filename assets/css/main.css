@@ -76,6 +76,8 @@ footer {
     box-shadow: 0 -20px 30px 2px rgb(0, 0, 0);
     padding: 15px 0;
     margin: 0;
+    /* display: flex;
+    justify-content: center; */
     text-align: center;
 }
 
@@ -115,6 +117,7 @@ footer {
 .nav-link {
     margin: 0 3%;
 }
+
 .portfolio-container {
     width: 100%;
     margin: 15% 0 8% 0;
@@ -123,19 +126,31 @@ footer {
     opacity: 0.95;
 }
 
+/* .port-inner-container {
+    
+} */
+
 .portfolio-h2 {
-    /* margin-left: 10px; */
     text-align: center;
     margin-bottom: 3%;
     font-size: 2.3rem;
 }
 
+.port-figure {
+    height: auto;
+    /* border: 1px solid white; */
+    padding: 0;
+    margin: 5%;
+    align-self: center;
+}
 .port-img {
+    /* max-height: 450px; */
+    width: auto;
     border-radius: 10px !important;
     /* background: white; */
     background: rgb(26, 26, 26);
     transition: 0.25s ease-in-out;
-    margin: 2% 0;
+    margin: 2% 0 0 0;
 }
 
 .port-img:hover {
@@ -152,7 +167,7 @@ footer {
     background: black;
     /* color: rgb(240, 240, 240); */
     color: rgb(255, 221, 128);
-    margin: 4px;
+    margin: 2px;
     padding: 3px 6px;
     border-radius: 20px;
 }
@@ -232,6 +247,7 @@ footer {
 
 #github-img {
     margin: 3px;
+    box-shadow: none;
 }
 /* Adding unique style for my email link. */
 #email {
@@ -264,4 +280,13 @@ footer {
 
 #resume:hover {
     color: rgb(191, 248, 255);
+}
+
+#up-home-img-a {
+    box-shadow: none;
+    padding: 20px;
+}
+#up-home-img {
+    box-shadow: none;
+    opacity: 0.9;
 }
