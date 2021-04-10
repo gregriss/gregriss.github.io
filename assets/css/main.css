@@ -60,6 +60,7 @@ figure {
 
 input, 
 textarea {
+    background: rgb(255, 234, 201) !important;
     box-shadow: 1px 1px 10px 3px rgb(49, 49, 49);
 }
 
@@ -87,11 +88,11 @@ footer {
     margin: 0px;
 } 
 /* Editing appearance of contact input boxes, paragraphs, image padding. */ 
-.container-lg {
+.container-xl {
     margin: 4% auto;
-    max-width: 65%;
-    /* padding-left: 15%;
-    padding-right: 15%; */
+    /* max-width: 65%; */
+    /* padding-left: 5%;
+    padding-right: 5%; */
 }
 
 .btn {
