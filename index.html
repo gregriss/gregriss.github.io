@@ -15,9 +15,9 @@
 </head>
 
 <body class="wrapper">
-  <header class="container-fluid">
+  <header id="header" class="container-fluid">
     <nav class="navbar navbar-expand-md navbar-dark">
-      <div class="container-fluid">
+      <div id="about" class="container-fluid">
         <a id="name" class="navbar-brand">Greg Riss</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
           aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,7 +25,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a id="about" class="nav-link active nav-text nav-word" aria-current="page" href="index.html">About</a>
+            <a class="nav-link active nav-text nav-word" aria-current="page" href="index.html">About</a>
             <a class="nav-link nav-text nav-word" href="#portfolio">Projects</a>
             <a class="nav-link nav-text nav-word" href="#contact">Contact</a>
             <a class="nav-link nav-text nav-word" href="assets/resume/resume.pdf" target="_blank">Resume</a>
@@ -64,7 +64,8 @@
         </section>
       </div>
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-5 md-7">
+          <h3>Google Maps API Project (MEHN Stack)</h3>
           <figure class="figure port-figure">
             <a href="https://apple-shortcake-96876.herokuapp.com/" target="_blank">
               <img src="assets/images/pathfinder-in-use.png" class="img-fluid rounded port-img"
@@ -91,6 +92,27 @@
             <span class="tech-span">HTML/CSS</span>
             <span class="tech-span">Bootstrap</span>
           </figure>
+          <h3>Burger Logger (MEHN Stack)</h3>
+          <figure class="figure port-figure">
+            <a href="https://peaceful-coast-04978.herokuapp.com/" target="_blank">
+              <img src="assets/images/burger-home.png" class="img-fluid rounded port-img" alt="Log a Burger">
+            </a>
+            <figcaption>
+              <a href="https://peaceful-coast-04978.herokuapp.com/" target="_blank" class="port-link">
+                <img class="heroku-img" src="assets/images/heroku-logotype-vertical-white.png">
+                Live Site
+              </a>
+              <a href="https://github.com/gregriss/log-a-burger" target="_blank" class="port-link">
+                <img class="github-img-sm" src="assets/images/github-mark-light-32px.png">
+                Code
+              </a>
+            </figcaption>
+            <span class="tech-span">Node.js</span>
+            <span class="tech-span">Handlebars</span>
+            <span class="tech-span">Express.js</span>
+            <span class="tech-span">MySQL</span>
+          </figure>
+          <h3>Game Soundtrack Search (JavaScript + APIs)</h3>
           <figure class="figure port-figure">
             <a href="https://patrick-kaczmar.github.io/GameBops/" target="_blank">
               <img src="assets/images/gamebops-home.png" class="img-fluid rounded port-img" alt="GameBops">
@@ -112,6 +134,7 @@
             <span class="tech-span">HTML/CSS</span>
             <span class="tech-span">Foundation</span>
           </figure>
+          <h3>Scheduler (JS Date + Client-side Storage)</h3>
           <figure id="work-day" class="figure port-figure">
             <a href="https://gregriss.github.io/plan-your-day/" target="_blank">
               <img src="assets/images/work-day.png" class="img-fluid rounded port-img" alt="Workday Scheduler">
@@ -129,27 +152,7 @@
             <span class="tech-span">jQuery</span>
             <span class="tech-span">HTML/CSS</span>
           </figure>
-        </div>
-        <div class="col lg-6">
-          <figure class="figure port-figure">
-            <a href="https://peaceful-coast-04978.herokuapp.com/" target="_blank">
-              <img src="assets/images/burger-home.png" class="img-fluid rounded port-img" alt="Log a Burger">
-            </a>
-            <figcaption>
-              <a href="https://peaceful-coast-04978.herokuapp.com/" target="_blank" class="port-link">
-                <img class="heroku-img" src="assets/images/heroku-logotype-vertical-white.png">
-                Live Site
-              </a>
-              <a href="https://github.com/gregriss/log-a-burger" target="_blank" class="port-link">
-                <img class="github-img-sm" src="assets/images/github-mark-light-32px.png">
-                Code
-              </a>
-            </figcaption>
-            <span class="tech-span">Node.js</span>
-            <span class="tech-span">Handlebars</span>
-            <span class="tech-span">Express.js</span>
-            <span class="tech-span">MySQL</span>
-          </figure>
+          <h3>Current Weather App (OpenWeather API)</h3>
           <figure class="figure port-figure">
             <a href="https://gregriss.github.io/weather-dash/" target="_blank">
               <img src="assets/images/weather.png" class="img-fluid rounded port-img" alt="Weather Dashboard">
@@ -168,7 +171,6 @@
             <span class="tech-span">jQuery</span>
             <span class="tech-span">HTML/CSS</span>
           </figure>
-
         </div>
       </div>
     </div>
@@ -197,18 +199,18 @@
     </div>
   </section>
   <footer class="footer">
-    <a href="mailto:gregriss23@gmail.com" id="email" class="footer-links">gregriss23@gmail.com</a>
-    <a href="assets/resume/resume.pdf" id="resume" class="footer-links" target="_blank">Resume</a>
+    <span id="phone" class="footer-links">608-513-4734 </span>
+    <a href="mailto:gregriss23@gmail.com" id="email" class="footer-links">gregriss23@gmail.com </a>
+    <a href="assets/resume/resume.pdf" id="resume" class="footer-links" target="_blank">Resume </a>
     <a href="https://www.linkedin.com/in/greg-riss-3023b191/" id="linkedIn" class="footer-links" target="_blank"><img
         class="linkedin-img" src="assets/images/linkedin-logo.png"></a>
     <a href="https://github.com/gregriss" id="github" class="footer-links" target="_blank"><img class="github-img"
         src="assets/images/github-mark-light-32px.png"></a>
-    <h6>&COPY; Greg Riss 2021</h6>
-    <div>
-      <a id="up-home-img-a" href="#about">
-        <img id="up-home-img" src="assets/images/up-circular-48.png">
-      </a>
-    </div>
+    <h5>&COPY; Greg Riss 2021</h5>
+    <a id="up-home-img-a" class="footer-links" href="#about">
+      Back to Top   
+      <img id="up-home-img" src="assets/images/up-circular-48.png">
+    </a>
   </footer>
 </body>
 

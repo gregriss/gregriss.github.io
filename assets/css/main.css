@@ -13,54 +13,54 @@ nav {
     font-size: 20px;
     width: 100%;
     padding: 15px;
-    /* margin-bottom: 4%; */
 }
 
 h1 {
     color:rgb(226, 199, 136);
     margin-bottom: 2%;
+    letter-spacing: 1px;
 }
 
-img {
-    box-shadow: 3px 3px 15px 5px rgb(24, 24, 24);
-}
 /* Making font size more uniform across the website.*/
 figcaption,
 span,
 label,
 .port-link {
     font-family: 'Nunito',sans-serif;
-    font-size: 110%;
+    font-size: 115%;
     line-height: 36px;
     letter-spacing: 0.9px;
 }
  
 p {
     /* margin-top: 12px; */
-    font-size: 115%;
+    font-size: 120%;
     padding: 3%;
     line-height: 32px;
     color:rgb(226, 199, 136);
     box-shadow: 2px 2px 10px 5px rgb(15, 15, 15);
 }
-
-/* p,
-#about-h1 {
-    margin-left: 10px;
-} */
 /* Making space between portfolio images. */
 figure {
-    padding: 3%;
-    margin: 5%;
+    padding: 2%;
+    /* margin: 1% 5% 5% 5%; */
 }
 
+figcaption {
+    display: block;
+}
 input, 
 textarea {
     /* background: rgb(255, 234, 201) !important; */
     box-shadow: 1px 1px 10px 3px rgb(49, 49, 49);
 }
 
-h6 {
+h3 {
+    color: rgb(255, 221, 128);
+    margin: 6% 0 0 5%;
+}
+
+h5 {
     opacity: 0.65;
     margin: 2%;
     letter-spacing: 1px;
@@ -73,6 +73,12 @@ footer {
     padding: 40px 0;
     margin: 0;
     text-align: center;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .wrapper {
@@ -95,11 +101,9 @@ footer {
 
 .contact-container {
     height: 50%;
-    margin: 20% auto;
+    margin: 15% auto 5% auto;
 }
-/* .contact-content {
-   margin-bottom: 0;
-} */
+
 .btn {
     background:rgb(12, 12, 12);
 }
@@ -124,8 +128,8 @@ footer {
 
 .portfolio-container {
     width: 100%;
-    /* margin: 20% 0 8% 0; */
-    padding: 3%;
+    margin: 5% 0 8% 0;
+    padding: 2% 5% 5% 5%;
     background-color: rgb(26, 26, 26);
     opacity: 0.95;
 }
@@ -133,30 +137,31 @@ footer {
     
 } */
 .portfolio-h2 {
-    text-align: center;
-    margin-bottom: 2%;
+    /* text-align: center; */
+    margin: 2% 3% 0 3%;
     font-size: 2.3rem;
+    letter-spacing: 1px;
 }
 
 .port-figure {
     height: auto;
-    /* border: 1px solid white; */
     padding: 0;
     margin: 5%;
-    align-self: center;
 }
+
 .port-img {
-    /* max-height: 450px; */
+    max-height: 600px;
     width: auto;
     border-radius: 10px !important;
     /* background: white; */
-    background: rgb(26, 26, 26);
+    /* background: rgb(26, 26, 26); */
     transition: 0.25s ease-in-out;
-    margin: 2% 0 0 0;
+    margin: 1% 0;
 }
 
 .port-img:hover {
-    opacity: 0.92;
+    background-color: white;
+    opacity: 0.85;
 }
 
 .tech-span {
@@ -169,7 +174,9 @@ footer {
     background: black;
     /* color: rgb(240, 240, 240); */
     color: rgb(255, 221, 128);
-    margin: 2px;
+    /* border: 3px solid rgb(122, 105, 56); */
+    border: 3px solid rgb(88, 76, 40);
+    margin: 8px 2px;
     padding: 3px 6px;
     border-radius: 20px;
 }
@@ -193,22 +200,21 @@ footer {
     background:rgb(26, 26, 26);
     margin: 2px 5px;
     padding: 3px 8px;
-    border-radius: 6px;
-    /* box-shadow: 1px 1px 8px 5px rgb(24, 24, 24); */
 }
 
 .port-link:hover {
-    color: rgb(255, 221, 128); 
+    text-decoration: underline;
+    /* color: rgb(255, 221, 128);  */
 }
 
 .contact-h2 {
-    /* color:rgb(226, 199, 136); */
     font-size: 2.3rem;
 }
 
 #sedonaPic { 
     margin-top: -25px;
     max-height: 500px;
+    box-shadow: 3px 3px 15px 5px rgb(24, 24, 24);
 }
 /* Changing the appearance for just my name at the top. */
 #name {
@@ -219,49 +225,34 @@ footer {
 }
 
 .footer-links {
-    font-size: 20px;
+    font-size: 22px;
     margin: 10px 7px 7px 7px;
     padding: 5px;
-    border-radius: 8px;
+    opacity: 0.95;
     text-decoration: none;
     transition: 0.2s ease-in-out;
 }
 
 #contact-submit-btn {
     border: 1px solid rgb(240, 240, 240);
-    /* box-shadow: 1px 1px 10px 5px rgb(34, 34, 34); */
 }
 
 #contact-submit-btn:hover {
-    /* background:rgb(226, 199, 136); */
     background: rgb(49, 49, 49);
     color: white;
-    /* border: 1px solid black; */
 }
 
 #work-day {
     margin-bottom: 5%;
-}
-#github {
-    color:rgb(255, 249, 239);
-}
-
-#github:hover {
-    color: rgb(191, 248, 255);
 }
 
 .github-img {
     margin: 3px;
     box-shadow: none;
 }
-/* Adding unique style for my email link. */
+
 #email {
     color: rgb(255, 221, 128);
-    /* text-align: center; */
-}
-
-#email:hover {
-    color: rgb(255, 236, 185);
 }
 
 .linkedin-img {
@@ -279,11 +270,8 @@ footer {
     color:rgb(255, 249, 239); 
 }
 
-#resume:hover {
-    color: rgb(191, 248, 255);
-}
-
 #up-home-img-a {
+    color:rgb(238, 238, 238);
     box-shadow: none;
     padding: 20px;
 }
@@ -291,4 +279,5 @@ footer {
 #up-home-img {
     box-shadow: none;
     opacity: 0.9;
+    margin: 15px;
 }
