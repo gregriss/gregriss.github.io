@@ -56,7 +56,7 @@ p,
 /* Making space between portfolio images. */
 figure {
     padding: 3%;
-    margin-right: 5%;
+    margin: 5%;
 }
 
 input, 
@@ -76,8 +76,6 @@ footer {
     box-shadow: 0 -20px 30px 2px rgb(0, 0, 0);
     padding: 15px 0;
     margin: 0;
-    /* display: flex;
-    justify-content: center; */
     text-align: center;
 }
 
@@ -94,6 +92,9 @@ footer {
     margin: 0px;
 } 
 
+.about-container {
+    margin: 10% auto;
+}
 .contact-container {
     margin-bottom: 10%;
 }
@@ -120,7 +121,7 @@ footer {
 
 .portfolio-container {
     width: 100%;
-    margin: 15% 0 8% 0;
+    margin: 20% 0 8% 0;
     padding: 3%;
     background-color: rgb(26, 26, 26);
     opacity: 0.95;
