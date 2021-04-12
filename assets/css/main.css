@@ -74,11 +74,16 @@ footer {
     margin: 0;
     text-align: center;
 }
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
+/* when page scrolled, navbar sticks to top, transition to dark gray background */
+.scroll-nav {
+    background: rgb(36, 36, 36);
+    opacity: 0.95;
+    transition: 0.8s ease-in-out;
+}
+/* when page not scrolled, transparent background */
+.top-nav {
+    background: none;
+    transition: 0.8s ease-in-out;
 }
 
 .wrapper {
@@ -88,14 +93,14 @@ footer {
 .container {
     flex: 1 0 auto;
 }
-/*allowed the navbar to span entire window. */
+/*allow containers to span entire viewport */
 .container-fluid {
     padding: 0px;
     margin: 0px;
 } 
 
 .about-container {
-    height: 100%;
+    height: 70%;
     margin: 10% auto 0 auto;
 }
 
