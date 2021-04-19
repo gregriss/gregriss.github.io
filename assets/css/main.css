@@ -4,7 +4,7 @@ body {
     height: 100%;
     background:rgb(10, 10, 10);
     background-image: url("../images/mtn-img-tersius-van-rhyn.jpg");
-    background-position: center center;
+    background-position: top left;
     background-size: cover;
     background-repeat:  no-repeat;
     background-attachment:  fixed; 
@@ -16,11 +16,15 @@ nav {
     padding: 15px;
 }
 h1 {
-    color:rgb(226, 199, 136);
+    color:hsl(42, 61%, 71%);
     /* margin-bottom: 2%; */
-    margin: 1%;
+    /* margin: 1%; */
+    /* padding: 1% 2.5%; */
+    /* padding: 1%;  */
     letter-spacing: 1px;
-    
+}
+main {
+    scroll-padding-top: 5rem;
 }
 /* Making font size more uniform across the website.*/
 figcaption,
@@ -29,12 +33,14 @@ label,
 .port-link {
     font-family: 'Nunito',sans-serif;
     font-size: 115%;
-    line-height: 36px;
+    /* line-height: 36px; */
+    line-height: 2rem;
     letter-spacing: 0.9px;
 }
-svg {
-    margin-bottom: 4px;
+svg, .icon {
+    margin-bottom:5px;
 }
+
 /* Making space between portfolio images. */
 figure {
     padding: 2%;
@@ -74,8 +80,10 @@ footer {
 /* when page scrolled, navbar sticks to top, transition to dark gray background */
 .scroll-nav {
     /* background: rgb(36, 36, 36); *//* dark gray */
-    /* background: rgb(23, 21, 42); blue */
-    background:rgb(12, 12, 12);
+    /* background: rgb(23, 21, 42);  */
+    /* background: hsl(246, 50%, 10%);  */
+    background: hsl(254, 20%, 5%); 
+    /* background:rgb(13, 13, 13); */
     opacity: 0.9;
     transition: 0.85s ease-in-out;
 }
@@ -87,9 +95,6 @@ footer {
 .wrapper {
     flex: 1 0 auto;
 }
-.container {
-    flex: 1 0 auto;
-}
 /*allow containers to span entire viewport */
 .container-fluid {
     padding: 0px;
@@ -98,15 +103,22 @@ footer {
 .about-container {
     /* background: rgb(23, 21, 42); */
     opacity: 0.97;
-    height: 55%;
-    margin: 5% 0;
+    /* height: 60%; */
+    height: auto;
+    width: 100%;
+    /* margin: 5% 0 */
+    margin: 0;
+    padding: 5% 2% 30% 2%;
+    scroll-padding: 6rem 0 0 0;
+    /* background:hsla(220, 60%, 20%, 0.2); */
 }
 .about-me-p {
     font-size: 1.6rem;
-    padding: 2% 3%;
+    /* padding: 2%; */
+    width: 100%;
     /* line-height: 32px; */
     /* color:rgb(226, 199, 136); */
-    color: rgb(255, 221, 128)
+    color: rgb(255, 221, 128);
 }
 .contact-container {
     height: 70%;
@@ -118,7 +130,7 @@ footer {
     margin: 20% auto 10% auto;
 }
 .btn {
-    background:rgb(12, 12, 12);
+    background:hsl(0, 0%, 5%);
 }
 /* .card {
     max-height: 475px;
@@ -133,10 +145,13 @@ footer {
 }
 .portfolio-container {
     width: 100%;
-    margin: 5% 0 8% 0;
+    /* margin: 5% 0 8% 0; */
     padding: 3% 5% 5% 5%;
+    scroll-margin-top: 4rem;
     /* background-color: rgb(26, 26, 26); */
-    background: rgb(23, 21, 42);
+    /* background: rgb(23, 21, 42); original blue */
+    /* background: hsl(245, 35%, 10%); */
+    background: hsl(220, 50%, 10%);
     opacity: 0.95;
 }
 .portfolio-h2 {
@@ -153,9 +168,6 @@ footer {
 .port-img {
     max-height: 600px;
     width: auto;
-    /* border-radius: 10px !important; */
-    /* background: white; */
-    /* background: rgb(26, 26, 26); */
     transition: 0.25s ease-in-out;
     margin: 1% 0;
 }
@@ -169,11 +181,13 @@ footer {
     line-height: 28px;
     letter-spacing: 0.9px;
     display: inline-block;
-    background: black;
+    /* background: hsl(0, 0%, 0%); */
+    background: hsl(5, 50%, 5%);
     /* color: rgb(240, 240, 240); */
-    color: rgb(255, 221, 128);
+    color: hsl(45, 100%, 75%);
     /* border: 3px solid rgb(122, 105, 56); */
-    border: 3px solid rgb(88, 76, 40);
+    /* border: 3px solid hsl(45, 38%, 25%); */
+    border: 3px solid hsl(45, 45%, 25%);
     margin: 3px 2px;
     padding: 3px 6px;
     border-radius: 20px;
@@ -181,10 +195,12 @@ footer {
 .port-link {
     display: inline-block;
     text-decoration: none;
-    color: rgb(238, 238, 238);
+    /* color: rgb(237, 237, 237); */
+    color: hsl(45, 50%, 96%);
     /* background:rgb(46, 44, 42); */
     /* background:rgb(26, 26, 26); */
-    border: solid whitesmoke 1px;
+    /* border: solid rgb(245, 245, 245) 1px; */
+    border: solid hsl(45, 50%, 96%) 1px;
     margin: 5px 5px 8px 5px;
     padding: 3px 8px;
 }
@@ -203,6 +219,7 @@ footer {
     margin: 0 2%;
 }
 .footer-links {
+    color:rgb(255, 249, 239); 
     font-size: 1.4rem;
     margin: 10px 7px 7px 7px;
     padding: 5px;
@@ -210,32 +227,30 @@ footer {
     text-decoration: none;
     transition: 0.2s ease-in-out;
 }
-#about-h1 {
-    padding: 1% 2.5%;
+
+.footer-links:hover {
+    opacity: 0.85;
 }
 #about-me-card {
-    margin-left: 4rem;
-    /* display: flex;
-    flex-flow: column wrap; */
+    /* margin-left: 4rem; */
+    padding: 2rem;
+    width: clamp(300px, 70%, 800px);
 }
 #contact-submit-btn {
     font-family: 'Nunito', sans-serif;
-    border: 1px solid rgb(240, 240, 240);
+    background:hsla(0, 0%, 5%, 0.9);
+    border: 1px solid hsla(0, 0%, 94%, 0.5);
 }
 #contact-submit-btn:hover {
-    background: rgb(36, 36, 36);
+    background: hsl(0, 0%, 10%);
     color: white;
 }
 #work-day {
     margin-bottom: 5%;
 }
-.github-img {
-    margin: 3px;
-    box-shadow: none;
-}
-#email {
+/* #email {
     color: rgb(255, 221, 128);
 }
 #resume {
     color:rgb(255, 249, 239); 
-}
+} */
