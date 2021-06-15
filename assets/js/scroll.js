@@ -10,10 +10,10 @@ document.addEventListener("DOMContentLoaded", function(){
     })
 });
 
-let phone = document.querySelector('#phone');
-let modal = document.querySelector('#phone-modal');
-phone.addEventListener('click', function(){
-    modal.classList.toggle('hide');
+// let phone = document.querySelector('#phone');
+// let modal = document.querySelector('#phone-modal');
+document.querySelector('#phone').addEventListener('click', function(){
+    document.querySelector('#phone-modal').classList.toggle('hide');
 })
 //     function initLazySections() {
 //         // var sectionsToLoad = document.querySelectorAll('img');

@@ -1,14 +1,19 @@
-/* Adding a background image, text color, font. */
 html, 
 body {
     height: 100%;
-    background:rgb(10, 10, 10);
+    /* background:rgb(10, 10, 10); */
+    /* background: rgb(42, 42, 42); */
+    /* background: hsl(240, 34%, 35%); */
+    /* most recent background colorbelow */
+    /* background: hsl(220, 55%, 15%); */
     background-image: url("../images/mtn-img-tersius-van-rhyn.jpg");
     background-position: top left;
     background-size: cover;
     background-repeat:  no-repeat;
     background-attachment:  fixed; 
-    color: rgb(255, 249, 239);
+    /* color: rgb(255, 249, 239); */
+    /* color: hsl(235, 100%, 90%); */
+    color: white;
 }
 nav {
     font-size: 20px;
@@ -16,32 +21,24 @@ nav {
     padding: 15px;
 }
 h1 {
-    color:hsl(42, 61%, 71%);
-    /* margin-bottom: 2%; */
-    /* margin: 1%; */
-    /* padding: 1% 2.5%; */
-    /* padding: 1%;  */
+    /* color:hsl(42, 61%, 71%); */
     letter-spacing: 1px;
 }
 main {
     scroll-padding-top: 5rem;
 }
-/* Making font size more uniform across the website.*/
 figcaption,
 span,
 label,
 .port-link {
     font-family: 'Nunito',sans-serif;
     font-size: 115%;
-    /* line-height: 36px; */
     line-height: 2rem;
     letter-spacing: 0.9px;
 }
 svg, .icon {
     margin-bottom:5px;
 }
-
-/* Making space between portfolio images. */
 figure {
     padding: 2%;
     /* margin: 1% 5% 5% 5%; */
@@ -70,10 +67,11 @@ form {
 footer {
     /* height: 10%; */
     max-height: 15%;
-    min-height: 5%;
+    min-height: 3%;
     flex-shrink: 0;
     opacity: 0.85;
-    background:rgb(0, 0, 0);
+    /* background: black; */
+    background:hsl(240, 14%, 15%);
     /* box-shadow: 0 -20px 30px 5px rgb(0, 0, 0); */
     padding: 2% 0 2% 0;
     margin: 0;
@@ -117,10 +115,11 @@ footer {
 .about-me-p {
     font-size: 1.6rem;
     /* padding: 2%; */
-    width: 100%;
+    width: 80%;
     /* line-height: 32px; */
     /* color:rgb(226, 199, 136); */
-    color: rgb(255, 221, 128);
+    /* was color below most recently */
+    /* color: rgb(255, 221, 128); */
 }
 .contact-container {
     height: 75%;
@@ -132,7 +131,7 @@ footer {
     margin: 20% auto 10% auto;
 }
 .btn {
-    background:hsl(0, 0%, 5%);
+    /* background:hsl(0, 0%, 5%); */
 }
 .nav-link {
     padding: 10px 0 0 0;
@@ -144,11 +143,12 @@ footer {
     /* margin: 5% 0 8% 0; */
     padding: 3% 5% 5% 5%;
     scroll-margin-top: 4rem;
-    /* background-color: rgb(26, 26, 26); */
+    /* was color below this most recently */
+    /* background-color: hsl(200, 55%, 15%); */
     /* background: rgb(23, 21, 42); original blue */
     /* background: hsl(245, 35%, 10%); */
     background: hsl(220, 50%, 10%);
-    opacity: 0.95;
+    opacity: 0.97;
 }
 .portfolio-h2 {
     /* text-align: center; */
@@ -179,8 +179,9 @@ footer {
     display: inline-block;
     /* background: hsl(0, 0%, 0%); */
     background: hsl(5, 50%, 5%);
-    /* color: rgb(240, 240, 240); */
-    color: hsl(45, 100%, 75%);
+    color: rgb(240, 240, 240);
+    /* was color below this most recently */
+    /* color: hsl(45, 100%, 75%); */
     /* border: 3px solid rgb(122, 105, 56); */
     /* border: 3px solid hsl(45, 38%, 25%); */
     border: 3px solid hsl(45, 45%, 25%);
@@ -216,26 +217,26 @@ footer {
 }
 .footer-links {
     color:rgb(255, 249, 239); 
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     /* margin: 10px 7px 7px 7px; */
-    margin: 1%;
+    margin: 0.8%;
     padding: 5px;
+    opacity: 0.8;
     /* opacity: 0.95; */
     text-decoration: none;
     transition: 0.2s ease-in-out;
 }
 
 .footer-links:hover {
-    opacity: 0.8;
+    opacity: 1;
 }
 #about-me-card {
-    /* margin-left: 4rem; */
     padding: 2rem;
-    width: clamp(300px, 70%, 800px);
+    /* width: clamp(300px, 70%, 800px); */
 }
 #contact-submit-btn {
     font-family: 'Nunito', sans-serif;
-    background:hsla(0, 0%, 5%, 0.9);
+    background:hsl(0, 0%, 5%);
     border: 1px solid hsla(0, 0%, 94%, 0.5);
 }
 #contact-submit-btn:hover {
@@ -245,19 +246,19 @@ footer {
 #work-day {
     margin-bottom: 5%;
 }
-
-/* #phone-modal {
-
-} */
 .hide {
     display: none;
 }
-.show {
-    display: inline;
-}
-/* #email {
-    color: rgb(255, 221, 128);
-}
-#resume {
-    color:rgb(255, 249, 239); 
-} */
+#call-to-action-btn {
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: x-large;
+    filter:saturate(1.25);
+    font-weight: bold;
+    background: rgb(255, 221, 128);
+    color:hsl(0, 0%, 10%);
+    /* most recent color below */
+    /* background: hsl(230, 95%, 60%); */
+    /* background: hsl(234, 90%, 55%); */
+    /* color: white;  */
+} 
